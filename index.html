@@ -3,9 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <title>私のホームページ</title>
+
+  <style>
+    body {
+      background-color: #fff3e6; /* 薄いオレンジ色 */
+      color: #333;
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      color: #d2691e;
+      border-bottom: 3px solid #f4b183;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .link-box {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #ffe8cc;
+      border-radius: 12px;
+    }
+
+    .link-box h2 {
+      margin-top: 0;
+      color: #b85c00;
+    }
+
+    a {
+      color: #d2691e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>こんにちは</h1>
-  <p>これはGitHub Pagesで作ったホームページです。</p>
+  <div class="container">
+    <h1>こんにちは</h1>
+
+    <p>これはGitHub Pagesで作ったホームページです。</p>
+
+    <p>以下のリンクも見てください。</p>
+
+    <div class="link-box">
+      <h2>リンク集</h2>
+
+      <ul>
+        <li>
+          <a href="https://www.navitime.co.jp/maps/routeSearch" target="_blank">
+            地図を見る
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
