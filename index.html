@@ -6,7 +6,7 @@
 
   <style>
     body {
-      background-color: #fff3e6; /* 薄いオレンジ色 */
+      background-color: #fff3e6;
       color: #333;
       font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
       margin: 0;
@@ -33,6 +33,25 @@
       font-size: 18px;
     }
 
+    nav {
+      margin: 25px 0;
+      padding: 15px;
+      background-color: #ffe8cc;
+      border-radius: 12px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #d2691e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     .link-box {
       margin-top: 30px;
       padding: 20px;
@@ -54,14 +73,6 @@
     a:hover {
       text-decoration: underline;
     }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
   </style>
 </head>
 
@@ -69,9 +80,27 @@
   <div class="container">
     <h1>こんにちは</h1>
 
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="about.html">私たちについて</a>
+      <a href="omoi.html">このページへの想い</a>
+    </nav>
+
     <p>これはGitHub Pagesで作ったホームページです。</p>
 
-    <p>以下のリンクも見てください。</p>
+    <p>このホームページでは、私たちのことや、このページに込めた想いを紹介しています。</p>
+
+    <div class="link-box">
+      <h2>ページ案内</h2>
+      <p>
+        <a href="about.html">私たちについて</a>
+      </p>
+      <p>
+        <a href="omoi.html">このページへの想い</a>
+      </p>
+    </div>
+
+
 
     <div class="link-box">
       <h2>リンク集</h2>
@@ -82,9 +111,11 @@
             地図を見る
           </a>
         </li>
-       
+
       </ul>
     </div>
+  </div>
+</body>
   </div>
 </body>
 </html>
